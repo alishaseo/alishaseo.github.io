@@ -6,3 +6,6 @@ body{
 .q{
     font-weight: 800;
 }
+h1{
+    padding: inherit;
+}
