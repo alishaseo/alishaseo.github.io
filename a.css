@@ -1,8 +1,12 @@
 body{
     background-color: palevioletred;
     font-size: 2em;
-    font-family: italic;
+
+font-family: cursive;    
 }
 .q{
     font-weight: 800;
+}
+h1{
+    background-color:pink; 
 }
