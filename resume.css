@@ -1,11 +1,17 @@
 body{
-    font-size: 2em;
+    font-size: 20px;
     font-family: cursive;  
+    color:black;
+    background-image: url("pinlpeople.jpg");
+   
   }
 .q{
     font-weight: 800;
 }
 h1{
-    background-color:pink; 
+   
     margin-right: 480px;
+}
+header h2 a {
+    text-decoration: none;
 }
