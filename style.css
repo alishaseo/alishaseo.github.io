@@ -1,13 +1,18 @@
 body{
-    font-size: 2em;
-    font-family: cursive;  
    background-image: url("images/background.jpg");
    background-repeat: no-repeat;
+   background-size:cover;
 }
-.q{
-    font-weight: 800;
+
+header{
+    font-size: 5em;
+    margin-left:650px;
+    margin-top: 200px;
+    font-family:monospace;
 }
-h1{
-    background-color:pink; 
-    margin-right: 480px;
+section{
+    margin-left: 800px;
+    margin-top:100px;
+    font-size: 2em;
+    text-decoration: none;
 }
