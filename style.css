@@ -13,10 +13,28 @@ header{
 section{
     margin-left: 800px;
     margin-top:100px;
-    font-size: 2em;
+    font-size: 1.5em;
     
 }
 header h1 a {
     text-decoration: none;
     color:black;
+}
+h2{
+    text-decoration: none;
+    color:black;
+ 
+}
+h2 a{
+    text-decoration: none;
+    color:rgb(80, 4, 43);
+    border-style:inset;
+    margin-left: 500px;
+    border-color: rgba(247, 153, 209, 0.521)
+  
+}
+footer{
+    margin-left: 830px;
+    margin-top: 200px;
+    font-size: 1.5em;
 }
