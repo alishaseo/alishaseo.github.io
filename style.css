@@ -31,10 +31,19 @@ h2 a{
     border-style:inset;
     margin-left: 500px;
     border-color: rgba(247, 153, 209, 0.521)
+
+
   
 }
 footer{
     margin-left: 830px;
     margin-top: 200px;
     font-size: 1.5em;
+}
+
+a:hover{
+    color:rgb(170, 0, 94);
+}
+#hover:hover{
+    color:rgb(0, 0, 0);
 }
