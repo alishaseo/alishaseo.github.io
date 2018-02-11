@@ -1,5 +1,5 @@
 body{
-    background-image: url("images/blower.jpg");
+    background-image: url("images/straw.jpg");
     background-repeat: no-repeat;
     margin-top: 100px;
     margin-left: 500px;
@@ -7,8 +7,25 @@ body{
     color:black;
     font-size: 1.5em;
     background-size:cover;
-   
-    
-    
-    
-}
+    }
+    h2 a{
+        text-decoration: none;
+        color: black;
+        border-style:groove;
+        border-color: rgba(58, 3, 12, 0.486);
+    }
+    h1{
+        font-size: 3em;
+    }
+    a:hover{
+        color:rgb(170, 0, 94);
+        }
+  p{
+      font-size: 1.5em;
+      font-family: monospace;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+  }

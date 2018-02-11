@@ -1,0 +1,17 @@
+canvas {
+    background-color: rgb(197, 101, 226);
+}
+body {
+    background-color: rgb(238, 188, 214);
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family: monospace;
+    font-size: 2em;
+    border-style:groove;
+    border-color: rgba(58, 3, 12, 0.486);
+}
+a:hover{
+    color:rgb(170, 0, 94);
+    }
