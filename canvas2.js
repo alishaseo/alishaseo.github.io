@@ -14,6 +14,7 @@ function init() {
     drawMouth();
     drawYellow();
     drawYellow2();
+    drawRed();
 }
 function drawBody(){
     ctx.beginPath();
@@ -92,5 +93,11 @@ function drawYellow2(){
     ctx.lineTo(185,360);
     ctx.lineTo(170,360);
     ctx.lineTo(170,318)
+    ctx.fill();
+}
+function drawRed(){
+    ctx.beginPath();
+    ctx.fillStyle="#ec3837"
+    ctx.arc(360,475,25,301,2*Math.PI)
     ctx.fill();
 }
