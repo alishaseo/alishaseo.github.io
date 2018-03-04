@@ -15,6 +15,7 @@ function init() {
     drawYellow();
     drawYellow2();
     drawRed();
+    drawSemo()
 }
 function drawBody(){
     ctx.beginPath();
@@ -97,7 +98,15 @@ function drawYellow2(){
 }
 function drawRed(){
     ctx.beginPath();
-    ctx.fillStyle="#ec3837"
-    ctx.arc(360,475,25,301,2*Math.PI)
+    ctx.fillStyle="red"
+    ctx.arc(320,350,20,0,2*Math.PI)
+    ctx.fill();
+}
+function drawSemo(){
+    ctx.fillStyle="#1c467e"
+    ctx.beginPath();
+    ctx.moveTo(242,368);
+    ctx.lineTo(252,385);
+    ctx.lineTo(223,385);
     ctx.fill();
 }

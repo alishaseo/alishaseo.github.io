@@ -1,0 +1,23 @@
+canvas {
+    background-color: rgb(255, 255, 255);
+}
+body {
+    background-color: rgb(240, 100, 123);
+    background-image: url("images/sky.jpg");
+    
+    
+}
+a{
+    text-decoration: none;
+    color:#E5BCBC;
+    font-family: monospace;
+    font-size: 2em;
+    border-style:groove;
+    border-color: rgba(224, 173, 182, 0.48);
+}
+a:hover{
+    color:rgb(1, 0, 1);
+    }
+h1{
+    color: white;
+}
