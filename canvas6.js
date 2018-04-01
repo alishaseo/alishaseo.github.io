@@ -9,27 +9,11 @@ function init() {
     ctx.lineWidth=6;
     
     ctx.strokeRect(0,0,canvas.width,canvas.height);
-    drawC(560,240,38);
-    drawC(440,240,38);
-    drawC(650,450,14);
-    drawC(650,500,14);
-    drawC(650,550,14);
-    drawC(650,600,14);
-    drawC(650,650,14);
-    drawC(650,700,14);
-    drawC(650,750,14);
-    drawC(650,800,14);
+    drawCircle(300,260,38);
+    drawCircle(500,160,38);
+    drawCircle(700,260,38);
 
-    ctx.fillRect;
-    ctx.fillStyle="black"
-    drawE(560,244,27);
-    drawE(440,244,27);
-
-    ctx.strokeRect(0,0,canvas.width,canvas.height);
-    drawM(500,300,50);
-
-
-
+    
     ctx.strokeRect(0,0,canvas.width,canvas.height);
     drawRectangle(300,170,400,200);
     drawRectangle(450,370,100,50);
@@ -51,24 +35,65 @@ function init() {
     drawRectangle(420,720,35,35);
 
 
+    ctx.strokeRect(0,0,canvas.width,canvas.height);
+    drawCircle(560,240,38);
+    drawCircle(440,240,38);
+    drawCircle(650,450,14);
+    drawCircle(650,500,14);
+    drawCircle(650,550,14);
+    drawCircle(650,600,14);
+    drawCircle(650,650,14);
+    drawCircle(650,700,14);
+    drawCircle(650,750,14);
+    drawCircle(650,800,14);
+  
+
+    ctx.fillStyle="black"
+    drawCircle2(560,244,27);
+    drawCircle2(440,244,27);
+
+    ctx.strokeRect(0,0,canvas.width,canvas.height);
+    drawMouth(500,300,50);
+
+    ctx.strokeRect(0,0,canvas.width,canvas.height);
+    drawArm(250,450,60,300);
+    
+
+
+    
+
 }
-function drawC(x,y,r){
+function drawCircle(x,y,r){
     ctx.beginPath();
     ctx.arc(x,y,r,0,2*Math.PI);
     ctx.stroke();
+    ctx.strokeStyle ="black"
+    ctx.fillStyle ="white"
+    
 }
 
-function drawE(x,y,r){
+function drawCircle2(x,y,r){
     ctx.beginPath();
     ctx.arc(x,y,r,0,2*Math.PI);
     ctx.fill();
+    
+    
 }
 
 function drawRectangle(x,y,w,h){
+    ctx.strokeStyle ="black"
+    ctx.fillStyle ="white"
     ctx.strokeRect(x,y,w,h);
+    ctx.fillRect(x,y,w,h);
 }
-function drawM(x,y,r){
+function drawMouth(x,y,r){
     ctx.beginPath();
     ctx.arc(x,y,r,0,Math.PI);
     ctx.stroke();
+}
+function drawArm(x,y,w,h){
+ctx.strokeStyle ="black"
+ctx.fillStyle ="white"
+ctx.strokeRect(x,y,w,h);
+ctx.fillRect(x,y,w,h);
 }
